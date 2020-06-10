@@ -3,6 +3,7 @@
     <github-corner class="github-corner" />
 
     <panel-group @handleSetLineChartData="handleSetLineChartData" />
+    <line-chart :chartData="lineChartData" />
 
     <el-row :gutter="32">
       <el-col :xs="24" :sm="24" :lg="12">
